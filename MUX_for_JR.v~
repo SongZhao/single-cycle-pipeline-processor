@@ -1,0 +1,10 @@
+module MuxJR(alu, r15, Rs, addr);
+input[15:0] alu, r15;
+input[3:0] Rs;
+output[15:0]addr;
+wire en;
+
+assign en = &Rs;
+assign addr = en ? r15 : alu;
+
+endmodule

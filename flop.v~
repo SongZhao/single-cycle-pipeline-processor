@@ -1,0 +1,19 @@
+module flop(stall, x, y, flush,clk);  //16bit flip_flop with stall
+input stall, flush,clk;
+input [15:0] x;
+output reg [15:0]y;
+
+always @(posedge clk, posedge stall)begin
+if(flush)
+y<=0;
+else if(stall)
+y<=y;
+else
+y<=x;
+
+end
+endmodule
+
+
+
+

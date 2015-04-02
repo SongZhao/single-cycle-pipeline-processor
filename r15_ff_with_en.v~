@@ -1,0 +1,23 @@
+module r15_ff_with_en(rst_n, x, y,clk,en, stall, z);
+input rst_n,clk,en,stall;
+input [15:0] x;
+output reg [15:0]y;
+output reg z;
+
+always @(posedge clk, negedge rst_n)begin
+if(!rst_n)
+y<=0;
+
+else if(en)
+y<=x;
+else if(stall)
+y<=y;
+
+end
+always @(posedge clk)begin
+if(en)
+z<=1;
+else
+z<=0;
+end
+endmodule

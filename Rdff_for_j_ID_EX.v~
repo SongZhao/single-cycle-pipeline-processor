@@ -1,0 +1,15 @@
+module ID_EX_rd(stall, x, y,clk, jflush);
+input stall,clk,jflush;
+input [3:0] x;
+output reg [3:0]y;
+
+always @(posedge clk)begin
+if(jflush)
+y<=4'bf;
+else if(stall)
+y<=y;
+else
+y<=x;
+
+end
+endmodule

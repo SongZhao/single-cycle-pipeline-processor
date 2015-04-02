@@ -1,0 +1,302 @@
+/filespace/people/s/szhao34/Desktop/pipelinlinnnnng/decoder.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/decoder.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module ID
+
+Top level modules:
+	ID
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/instr_mem.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/instr_mem.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module IM
+
+Top level modules:
+	IM
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/r15_ff_with_en.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/r15_ff_with_en.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module r15_ff_with_en
+
+Top level modules:
+	r15_ff_with_en
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/1bit_stall_mux.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/1bit_stall_mux.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module S1MUX
+
+Top level modules:
+	S1MUX
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/7bit_flip_flop.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/7bit_flip_flop.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop_7bit
+
+Top level modules:
+	flop_7bit
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/SRC_MUX.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/SRC_MUX.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module SRC_MUX
+
+Top level modules:
+	SRC_MUX
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/Rdff_for_j_ID_EX.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/Rdff_for_j_ID_EX.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module ID_EX_rd
+
+Top level modules:
+	ID_EX_rd
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/ALU.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/ALU.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/3bit_stall_mux.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/3bit_stall_mux.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module S3MUX
+
+Top level modules:
+	S3MUX
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/SRC_imm_MUX.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/SRC_imm_MUX.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module SRC_imm_MUX
+
+Top level modules:
+	SRC_imm_MUX
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/simple_mux.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/simple_mux.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module simple_mux
+
+Top level modules:
+	simple_mux
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/PC.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/PC.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/MUX_for_JR.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/MUX_for_JR.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module MuxJR
+
+Top level modules:
+	MuxJR
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/2bit_flip_flop.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/2bit_flip_flop.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop_2bit
+
+Top level modules:
+	flop_2bit
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/cache_outout_MUX.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/cache_outout_MUX.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module cache_output_MUX
+
+Top level modules:
+	cache_output_MUX
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/IF_ID_flush.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/IF_ID_flush.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module IF_ID_flush
+
+Top level modules:
+	IF_ID_flush
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/1bit_flip_flop_with_stall.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/1bit_flip_flop_with_stall.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop_1bit_with_stall
+
+Top level modules:
+	flop_1bit_with_stall
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/12bit_flip_flop.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/12bit_flip_flop.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop_12bit
+
+Top level modules:
+	flop_12bit
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/4bit_flip_flop.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/4bit_flip_flop.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop_4bit
+
+Top level modules:
+	flop_4bit
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/6bit_flip_flop.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/6bit_flip_flop.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop_6bit
+
+Top level modules:
+	flop_6bit
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/data_mem.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/data_mem.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module DM
+
+Top level modules:
+	DM
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/FU_for_jaddr_sel.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/FU_for_jaddr_sel.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module jump_addr_forwarding
+
+Top level modules:
+	jump_addr_forwarding
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/branch_s.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/branch_s.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module bs
+
+Top level modules:
+	bs
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/FMux.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/FMux.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module FMUX
+
+Top level modules:
+	FMUX
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/ControlSM.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/ControlSM.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module ControlSM
+
+Top level modules:
+	ControlSM
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/jreg_mux.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/jreg_mux.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module Jreg_mux
+
+Top level modules:
+	Jreg_mux
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/flop.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/flop.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop
+
+Top level modules:
+	flop
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/rf_pipelined.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/rf_pipelined.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module rf
+
+Top level modules:
+	rf
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/16bit_flip_flop_non_stall.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/16bit_flip_flop_non_stall.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop_16bit
+
+Top level modules:
+	flop_16bit
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/8bit_flip_flop.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/8bit_flip_flop.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop_8bit
+
+Top level modules:
+	flop_8bit
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/1bit_flip_flop.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/1bit_flip_flop.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop_1bit
+
+Top level modules:
+	flop_1bit
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/unified_mem.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/unified_mem.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module unified_mem
+
+Top level modules:
+	unified_mem
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/4bit_stall_mux.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/4bit_stall_mux.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module S4MUX
+
+Top level modules:
+	S4MUX
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/FU.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/FU.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module FU
+
+Top level modules:
+	FU
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/cache.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/cache.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module cache
+
+Top level modules:
+	cache
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/3bit_flip_flop.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/3bit_flip_flop.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module flop_3bit
+
+Top level modules:
+	flop_3bit
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/HD.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/HD.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module HD
+
+Top level modules:
+	HD
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/LW_MUX.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/LW_MUX.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module LW_MUX
+
+Top level modules:
+	LW_MUX
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/ff_just_or_IFID.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/ff_just_or_IFID.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module IFIDflop
+
+Top level modules:
+	IFIDflop
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/system_memory.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/system_memory.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module system_memory
+
+Top level modules:
+	system_memory
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/6bit_stall_mux.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/6bit_stall_mux.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module S6MUX
+
+Top level modules:
+	S6MUX
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/cpu_tb.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/cpu_tb.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module cpu_tb
+
+Top level modules:
+	cpu_tb
+
+} {} {}} /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/shifter.v {1 {vlog -work work -vopt /filespace/people/s/szhao34/Desktop/pipelinlinnnnng/shifter.v
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 18 2013
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}}

@@ -1,0 +1,16 @@
+module FU(EX_MEM_RW, MEM_WB_RW, EX_MEM_RD, MEM_WB_RD,RS, RT, EX_MEM_RS, ID_EX_RD,FA, FB);
+input EX_MEM_RW, MEM_WB_RW;
+input [3:0] EX_MEM_RD, MEM_WB_RD, RS, RT, EX_MEM_RS, ID_EX_RD;
+output [1:0] FA, FB;
+wire f1;
+assign f1 = (EX_MEM_RD ==RS);
+
+assign FA = (EX_MEM_RW && (EX_MEM_RD ==RS))? 2'b10: //ALU to ALU
+            (MEM_WB_RW && (MEM_WB_RD ==RS))? 2'b01://MEM to ALU
+             2'b00;  
+
+assign FB = (EX_MEM_RW && (EX_MEM_RD ==RT ))? 2'b10:
+            (MEM_WB_RW && (MEM_WB_RD ==RT ))?2'b01 : 2'b00;
+
+
+endmodule

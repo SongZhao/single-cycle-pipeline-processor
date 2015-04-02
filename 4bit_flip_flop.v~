@@ -1,0 +1,12 @@
+module flop_4bit(stall, x, y,clk);
+input stall,clk;
+input [3:0] x;
+output reg [3:0]y;
+wire [3:0]nxt_y;
+
+assign nxt_y = (stall)? y : x;
+always @(posedge clk)begin
+y<= nxt_y;
+
+end
+endmodule

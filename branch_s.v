@@ -1,0 +1,30 @@
+module bs(b, condition, flag_reg, b_s);  //module that generate branch signal at ID_MEM stage
+input b;
+input [2:0] condition;
+input [2:0] flag_reg;
+output b_s;
+
+
+localparam [2:0] NE = 3'b000;
+localparam [2:0] E = 3'b001;
+localparam [2:0] GT = 3'b010;
+localparam [2:0] LT = 3'b011;
+localparam [2:0] GE = 3'b100;
+localparam [2:0] LE = 3'b101;
+localparam [2:0] OV = 3'b110;
+localparam [2:0] TRUE = 3'b111;
+
+
+assign b_s = (b != 1'b1)? 0:								
+		((condition == NE)&&(flag_reg[0] == 0))? 1:
+		((condition == E)&&(flag_reg[0] == 1))? 1:
+		((condition == GT)&&(|flag_reg[1:0] == 0))? 1:
+		((condition == LT)&&(flag_reg[1] == 1))? 1:
+		((condition == GE)&&((flag_reg[0] == 1)||(|flag_reg[1:0] == 0)))? 1:
+		((condition == LE)&&(|flag_reg[1:0] == 1))? 1:
+		((condition == OV)&&(|flag_reg[2] == 1))? 1:
+		(condition == TRUE)? 1 : 0;
+
+endmodule
+
+
