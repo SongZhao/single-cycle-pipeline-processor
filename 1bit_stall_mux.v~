@@ -1,8 +1,0 @@
-module S1MUX(flush, stall, x, y);
-input flush, stall;
-input x;
-output y;
-
-assign y = ((flush||stall)==1)? 0 : x;
-
-endmodule
